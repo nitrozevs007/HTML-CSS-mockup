@@ -18,15 +18,195 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 img {
     display: inline-block;
+}
+
+.main {
+    background-color: #fff;
 }
 
 .container {
     max-width: 100%;
     width: 1200px;
     margin: 0 auto;
+    margin-top: 20px;
     padding: 0 20px;
 }
 
-    
+#second {
+    background: #a78bfa;
+}
+
+
+header ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header ul li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.hero .text1 b {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.hero .text1 h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 108%;
+    color: #000;
+    width: 757px;
+    margin-bottom: 20px;
+}
+
+.hero .text1 p {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 150%;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.hero .hero-btns {
+    display: flex;
+    gap: 30px;
+}
+
+.hero .text1 button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 20px;
+    border: none;
+}
+
+.hero .text1 button a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.hero .text1 .hero-btns .WhatsApp {
+    box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.1), 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(90deg, #25d366 0%, #4caf50 100%);
+}
+
+.hero .text1 .hero-btns .telegram {
+    box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.1), 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(90deg, #08c 0%, #0af 100%);
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    gap: 56px;
+}
+
+.section1 .text2 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.section1 .text2 h3 {
+    font-weight: 700;
+    font-size: 40px;
+    width: 526px;
+    line-height: 125%;
+    color: #fff;
+}
+
+.section1 .text2 p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    color: #fff;
+    width: 515px;
+    opacity: 0.9;
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    flex-direction: column;
+}
+
+.section2 .section2-footer ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+
+.section2 h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    text-align: center;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.section2 .bottom-icon {
+    margin-bottom: 50px;
+}
+
+.section2 .section2-footer ul li {
+    display: flex;
+    flex-direction: column;
+    width: 252px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+
+.section2 .section2-footer ul li .cyrcle {
+    border-radius: 50%;
+    box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.1), 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    background: rgba(68, 26, 26, 0);
+    overflow: hidden;
+    padding: 26px;
+}
+
+.section2 .section2-footer ul li h3 span {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    text-align: center;
+    color: #9881f7;
+}
+
+.section2 .section2-footer ul li b {
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+}
